@@ -1,4 +1,4 @@
-# dateupdate_go
+# dateupdate_rs
 
 Every non-Ubuntu based GNU/Linux distro I try always has some problem with the system clock. Even when I set it manually, it ends up shifting a little bit over a few weeks. I suspect this is the fault of my eleven year old laptop, but still.  
 So I made this tool to automatically set the correct(ish) time and date automatically. It queries the [WorldTimeAPI](http://worldtimeapi.org/) and generates a valid `date` command you can run in your shell.
